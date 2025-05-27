@@ -1,0 +1,25 @@
+setuptools
+easydict
+ftfy
+argparse
+#multiprocessing  #Wow, it's already been download.
+#pickle
+pillow
+tqdm
+trimesh
+#numpy
+numpy==1.26.4
+#time
+#itertools
+matplotlib==3.8.4
+opencv-contrib-python==4.11.0.86
+faiss-cpu
+transformers==4.47.0
+#faiss-gpu
+pandas
+torch
+torchvision
+accelerate
+StanfordOpenIE
+#accelerate==1.0.0
+#pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
