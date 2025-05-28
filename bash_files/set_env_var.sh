@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+
 #!/bin/bash
 export TRANSFORMERS_OFFLINE=0
 export HF_HUB_OFFLINE=0

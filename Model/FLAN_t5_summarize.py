@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+
 from transformers import pipeline
 from openie import StanfordOpenIE
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline

@@ -1,6 +1,4 @@
-# -- To do :Deal with walls and floors, which always contain lots of miscellaneous objects in the image
-# -- To do:restrict the words used to describe words or relationship given by Spatialbot, for instance these relationship
-      #defined by 3DSSG.
+# SPDX-License-Identifier: AGPL-3.0-only
 
 #To use this model, Attie need to install the transformers==4.47.0 library(Not the newest).   
 import subprocess

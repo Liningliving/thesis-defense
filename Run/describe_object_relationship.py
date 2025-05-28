@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+
 #Select top k frame todescribe an object 
 import subprocess
 import os

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+
 import numpy as np
 import cv2 
 from PIL import Image
