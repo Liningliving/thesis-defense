@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-only
 #!/bin/bash
 # run_all.sh — 一键串联 1→4
 # cd bash_files/

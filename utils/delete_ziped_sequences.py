@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-only
 #unzip sequences, to save disk space. 
 
 import sys

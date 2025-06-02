@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-only
 #These code are from open3DSG
 import numpy as np
 

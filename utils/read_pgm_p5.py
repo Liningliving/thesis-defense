@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: AGPL-3.0-only
 import numpy as np
 import sys
 # from numpy import array, uint16, fromfile, array

@@ -4,7 +4,6 @@ import time
 from openai import OpenAI
 import json
 import re
-import ast
 from openai import RateLimitError
 
 api_key = ""  # Replace with your actual API Key
