@@ -288,5 +288,5 @@ if __name__ == '__main__':
         process_map(partial(run, scene_data=scene_data, export_path=export_path, dataset=dataset), scans, max_workers=8, chunksize=4)
     else:
         for scan in tqdm(scans):
-            if scan == '0cac75b1-8d6f-2d13-8c17-9099db8915bc':
-                run(scan, scene_data, export_path=export_path, dataset=dataset)
+            # if scan == '0cac75b1-8d6f-2d13-8c17-9099db8915bc':
+            run(scan, scene_data, export_path=export_path, dataset=dataset)

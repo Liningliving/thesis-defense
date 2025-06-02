@@ -120,8 +120,8 @@ if __name__ == "__main__":
     for scan in os.listdir(CONF.PATH.R3SCAN_RAW):
         if os.path.isdir( os.path.join(CONF.PATH.R3SCAN_RAW, scan) ) and scan != '3DSSG_subset':
             sequence_folder = os.path.join( CONF.PATH.R3SCAN_RAW, scan)
-            if "0cac75b1-8d6f-2d13-8c17-9099db8915bc" in sequence_folder:
-                align_rgb_with_depth(sequence_folder)
+            # if "0cac75b1-8d6f-2d13-8c17-9099db8915bc" in sequence_folder:
+            align_rgb_with_depth(sequence_folder)
          
 
 

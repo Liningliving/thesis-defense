@@ -5,9 +5,6 @@ import sys
 import path
 from easydict import EasyDict
 
-os.environ['HTTP_PROXY'] = 'http://127.0.0.1:7890'
-os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:7890'
-
 CONF = EasyDict()
 
 # path
@@ -22,9 +19,9 @@ for _, path in CONF.PATH.items():
     sys.path.append(path)
 
 # Original Datasets
-CONF.PATH.R3SCAN_RAW = os.path.join(CONF.PATH.DATA, "3RScan4small_test")  # 3RScan original dataset directory
+CONF.PATH.R3SCAN_RAW = os.path.join(CONF.PATH.DATA, "3RScan")  # 3RScan original dataset directory
 
-CONF.PATH.R3SCAN_DATA_OUT = os.path.join(CONF.PATH.DATA, "3RScan4small_test_dataout")  # Output directory for processed datasets
+CONF.PATH.R3SCAN_DATA_OUT = os.path.join(CONF.PATH.DATA, "3RScan_dataout")  # Output directory for processed datasets
 # CONF.PATH.R3SCAN = os.path.join(CONF.PATH.DATA_OUT, "datasets", "OpenSG_3RScan") 
 
 # for _, path in CONF.PATH.items():

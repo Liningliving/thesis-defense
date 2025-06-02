@@ -68,8 +68,8 @@ def construct_relationship2frame(object2frame):
 if __name__ == "__main__":
     views_root = os.path.join(CONF.PATH.R3SCAN_DATA_OUT, 'views')
     for view in os.listdir(views_root):
-        if "0cac75b1-8d6f-2d13-8c17-9099db8915bc" not in view:
-            continue
+        # if "0cac75b1-8d6f-2d13-8c17-9099db8915bc" not in view:
+        #     continue
         scan_id = view.split('_')[0]
 
         main_dict_object = {}
