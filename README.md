@@ -1,3 +1,11 @@
+## LicenseAdd commentMore actions
+
+This project is licensed under the GNU Affero General Public License, version 3 (AGPL-3.0-only).  
+See the [LICENSE](LICENSE) file for details.  
+![AGPL-3.0-only](https://img.shields.io/badge/License-AGPLv3-blue.svg)
+
+
+---
 ## Project Overview
 
 This repository implements a method for constructing indoor 3D semantic scene graphs from partially labeled point cloud data from 3RScan and 3DSSG_subset. The pipeline consists of four main steps:
@@ -59,7 +67,7 @@ In these scenes, the counts of **labeled** object-object relationships are:
 - Living Room: 73  
 - Office: 58  
 
-Since we extracted many relationships from scenes: Bedroom 0, Bedroom 1, Living Room, and Office, we randomly sampled 30 relationships from each of those four scenes for manual analysis. (Results are summarized in Table below.)![result table](result_table.png)
+Since we extracted many relationships from scenes: Bedroom 0, Bedroom 1, Living Room, and Office, we randomly sampled 30 relationships from each of those four scenes for manual analysis. (Results are summarized in Table below.![result table])(result_table.png)
 
 It is worth noting that our method performs poorly in the Lobby scene and fails to extract surrounding-object relationships there—indicating that sparsely populated scenes are a challenge.
 
@@ -82,3 +90,37 @@ These results indicate that, despite the low coverage of existing annotations, t
 1. **Set the path of datasets and output files.**
 
 2. **Run bash_files/run_all.sh**
+
+
+---
+## Dependencies & AcknowledgmentsAdd commentMore actions
+
+- **Flan-T5-Base** (Hugging Face Transformers)  
+  [![Apache 2.0][apache-badge]](https://www.apache.org/licenses/LICENSE-2.0)  
+  SPDX: `Apache-2.0`Add commentMore actions
+
+- **SpatialBot** (BAAI-DCAI)  
+  [![MIT][mit-badge]](https://opensource.org/licenses/MIT)  
+  SPDX: `MIT`
+
+- **Open3DSG** (Bosch Research)  
+  AGPL-3.0-only  
+  - Full text: https://www.gnu.org/licenses/agpl-3.0.en.html  
+  SPDX: `AGPL-3.0-only`
+
+- **moonshot-v1-8k API**  
+  see [Moonshot Terms](https://api.moonshot.ai/terms) for usage and attribution requirements
+
+### Data
+
+- **3RScan**  
+  [![MIT][mit-badge]](https://opensource.org/licenses/MIT)  
+  SPDX: `MIT`
+
+- **3DSSG**  
+  [![CC BY-NC-SA 4.0][ccbyncsa-badge]](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+  SPDX: `CC-BY-NC-SA-4.0`
+
+[apache-badge]:      https://img.shields.io/badge/License-Apache_2.0-blue.svg
+[mit-badge]:         https://img.shields.io/badge/License-MIT-green.svg
+[ccbyncsa-badge]:    https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg
