@@ -138,7 +138,7 @@ if __name__ == "__main__":
                 else:
                     relationship_frames = relationship[1]
 
-                for idx, frame in zip( range( frame_size ), relationship[1] ):
+                for idx, frame in zip( range( frame_size ), relationship_frames ):
                     #frame is a tuple contain ('frame_id', (bb), 2D_points_nparray)
                     jpg_file_name_string = frame[0]
                     frame_id_string = jpg_file_name_string.split('.')[0] 
