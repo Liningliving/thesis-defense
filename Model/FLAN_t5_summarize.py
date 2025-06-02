@@ -7,6 +7,7 @@ from huggingface_hub import login
 import torch
 
 # Replace YOUR_TOKEN with your actual access token
+login(token="")
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 from transformers import pipeline
