@@ -67,7 +67,7 @@ In these scenes, the counts of **labeled** object-object relationships are:
 - Living Room: 73  
 - Office: 58  
 
-Since we extracted many relationships from scenes: Bedroom 0, Bedroom 1, Living Room, and Office, we randomly sampled 30 relationships from each of those four scenes for manual analysis. (Results are summarized in Table below.![result table])(result_table.png)
+Since we extracted many relationships from scenes: Bedroom 0, Bedroom 1, Living Room, and Office, we randomly sampled 30 relationships from each of those four scenes for manual analysis. (Results are summarized in Table below.)![result table](result_table.png)
 
 It is worth noting that our method performs poorly in the Lobby scene and fails to extract surrounding-object relationships there—indicating that sparsely populated scenes are a challenge.
 
